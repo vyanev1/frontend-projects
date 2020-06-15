@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #quote-box {
@@ -34,6 +34,7 @@ body {
   text-align: center;
   width: 100%;
   height: auto;
+  max-height: 100%;
   font-weight: 500;
   font-size: 1.75em;
 }
@@ -77,6 +78,6 @@ a > * {
 @media (max-width: 600px) {
   #quote-box {
     width: 90%;
-    margin: auto;
+    margin: 20px auto;
   }
 }
