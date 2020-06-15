@@ -1,2 +1,2 @@
 # Frontend Projects
-- Quote Machine: https://codepen.io/victor-yanev/full/yLYQgRo
+- Quote Machine (React.js + Fetching external APIs): https://codepen.io/victor-yanev/full/yLYQgRo
