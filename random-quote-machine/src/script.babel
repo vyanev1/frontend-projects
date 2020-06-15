@@ -53,8 +53,6 @@ class QuoteMachine extends React.Component {
   }
 
   render() {
-    this.changeColors();
-    
     var quote = this.state.quotesData[
       Math.floor(Math.random() * this.state.quotesData.length)
     ];
@@ -63,6 +61,7 @@ class QuoteMachine extends React.Component {
       return <p>Loading ...</p>;
     }
     
+    this.changeColors();
     return (
       <div id="quote-box">
         <div className="quote-text">
