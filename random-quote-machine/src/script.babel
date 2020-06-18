@@ -77,7 +77,7 @@ class QuoteMachine extends React.Component {
               id="tweet-quote"
               href={
                 "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" +
-                encodeURIComponent('"' + quote.title + '" ' + quote.author)
+                encodeURIComponent('"' + quote.quote + '" ' + quote.author)
               }
               target="_blank"
             >
@@ -89,7 +89,7 @@ class QuoteMachine extends React.Component {
                 "https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=" +
                 encodeURIComponent(quote.author) +
                 "&content=" +
-                encodeURIComponent(quote.title) +
+                encodeURIComponent(quote.quote) +
                 "&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button"
               }
               target="_blank"
